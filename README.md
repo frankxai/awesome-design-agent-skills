@@ -1,1 +1,115 @@
 # awesome-design-agent-skills
+
+A curated map of design skills for AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, v0, Lovable, and beyond.
+
+## TL;DR
+
+This is not a giant dump of links. It is a design-specific curation layer for people who want better AI-generated UI, stronger brand systems, more tasteful motion, and sharper design audits.
+
+| If you want to… | Start here |
+| --- | --- |
+| Avoid generic AI UI | [Anti-slop rubric](./rubrics/anti-slop-rubric.md) |
+| Find the best overall UI generation resources | [Best frontend design skills](./rankings/best-frontend-design-skills.md) |
+| Improve motion and interaction polish | [Best motion skills](./rankings/best-motion-skills.md) |
+| Build a coherent visual system | [Best brand system skills](./rankings/best-brand-system-skills.md) |
+| Critique and improve weak interfaces | [Best design audit skills](./rankings/best-design-audit-skills.md) |
+| See the kind of improvement these skills should create | [Before / after gallery](./examples/before-after-gallery.md) |
+
+## Why this repo exists
+
+Generic skill aggregators already exist. This repo focuses on the narrower problem: **which skills actually improve design output** for product UI, motion, brand systems, and design audits.
+
+The goal is not to list everything. The goal is to help people quickly find the highest-signal design-oriented skills, prompts, and reference repos.
+
+## Start here
+
+- [Best frontend design skills](./rankings/best-frontend-design-skills.md)
+- [Best motion skills](./rankings/best-motion-skills.md)
+- [Best brand system skills](./rankings/best-brand-system-skills.md)
+- [Best design audit skills](./rankings/best-design-audit-skills.md)
+- [Anti-slop rubric](./rubrics/anti-slop-rubric.md)
+- [AI UI quality rubric](./rubrics/ai-ui-quality-rubric.md)
+- [Before / after gallery](./examples/before-after-gallery.md)
+- [Repository architecture](./ARCHITECTURE.md)
+- [Contributing guide](./CONTRIBUTING.md)
+
+## How to use this repo
+
+### If you are generating UI
+
+Start with [Best frontend design skills](./rankings/best-frontend-design-skills.md), then use the [Anti-slop rubric](./rubrics/anti-slop-rubric.md) to pressure-test the output.
+
+### If you are polishing interaction quality
+
+Pair [Best motion skills](./rankings/best-motion-skills.md) with the [AI UI quality rubric](./rubrics/ai-ui-quality-rubric.md) to evaluate state changes, transitions, and perceived quality.
+
+### If you are building a visual system
+
+Use [Best brand system skills](./rankings/best-brand-system-skills.md) and then verify consistency across components and screens with the [AI UI quality rubric](./rubrics/ai-ui-quality-rubric.md).
+
+### If you are auditing weak output
+
+Start with [Best design audit skills](./rankings/best-design-audit-skills.md), then score the result with the [Anti-slop rubric](./rubrics/anti-slop-rubric.md).
+
+## Positioning
+
+This repository should become the **design-specific discovery layer** on top of broader agent-skill directories.
+
+It should answer questions like:
+
+- Which skills produce non-generic UI?
+- Which skills are strongest for motion and polish?
+- Which resources help generate coherent brand systems?
+- Which prompts or skills are useful for auditing weak AI-generated interfaces?
+
+## Curation philosophy
+
+This repo filters for **taste, quality, and practical design usefulness** rather than raw popularity. A smaller list with sharper judgment is more useful than a huge directory of loosely related links.
+
+A resource belongs higher when it improves real shipped output: stronger hierarchy, clearer interaction design, more coherent systems, and less generic AI sameness.
+
+## Already serious aggregators
+
+These resources already matter, and this repo should complement them rather than duplicate them.
+
+| Repo / Resource | What it is | Why it matters |
+| --- | --- | --- |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ agent skills compatible with Claude Code, Codex, Gemini CLI, Cursor, and more | The generic aggregator already exists. This repo should filter the design-specific winners from it. |
+| [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated Claude Skills list | Strong Claude-specific discovery layer and useful source of design-adjacent skills. |
+| [Anthropic frontend-design skill](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | Official-ish frontend design skill inside the Claude Code repo | A strong baseline for anti-slop frontend generation and a useful reference standard. |
+| [VoltAgent/awesome-claude-design](https://github.com/VoltAgent/awesome-claude-design) | Ready-to-use `DESIGN.md` inspirations | Useful prompt and template layer for design-system-driven UI generation. |
+| [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | Curated design skill files for Claude Code, Cursor, Codex, and others | The closest existing repo to an "awesome design skills" concept. |
+
+## What belongs here
+
+High-signal content for this repo:
+
+- Ranked lists by use case, not just by popularity
+- Rubrics for evaluating whether a skill avoids generic AI UI
+- Side-by-side before/after examples showing what good design guidance changes
+- Short explanations of when to use a skill, not just links
+- Cross-tool coverage for Claude Code, Codex, Cursor, Gemini CLI, v0, Lovable, and similar products
+
+Low-signal content to avoid:
+
+- Giant unsorted dumps of links
+- Repositories with no design-specific angle
+- Prompt packs with no visible output quality bar
+- Lists that only track stars instead of actual design usefulness
+
+## Initial curation principles
+
+A resource should rank higher when it:
+
+1. Produces distinctive, production-grade interfaces instead of generic AI UI
+2. Encodes taste, hierarchy, spacing, typography, and motion guidance
+3. Works across real coding-agent workflows, not only in chat
+4. Helps with system-level consistency, not just single-screen mockups
+5. Includes examples, templates, or skill files people can reuse directly
+
+## Suggested next expansion
+
+- Add more design-skill sources as they appear
+- Add concrete examples from real generated interfaces
+- Separate rankings by workflow stage: generation, polish, audit, and systemization
+- Track which skills are strongest by agent ecosystem
