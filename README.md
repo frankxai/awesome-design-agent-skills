@@ -2,6 +2,19 @@
 
 A curated map of design skills for AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, v0, Lovable, and beyond.
 
+## TL;DR
+
+This is not a giant dump of links. It is a design-specific curation layer for people who want better AI-generated UI, stronger brand systems, more tasteful motion, and sharper design audits.
+
+| If you want to… | Start here |
+| --- | --- |
+| Avoid generic AI UI | [Anti-slop rubric](./rubrics/anti-slop-rubric.md) |
+| Find the best overall UI generation resources | [Best frontend design skills](./rankings/best-frontend-design-skills.md) |
+| Improve motion and interaction polish | [Best motion skills](./rankings/best-motion-skills.md) |
+| Build a coherent visual system | [Best brand system skills](./rankings/best-brand-system-skills.md) |
+| Critique and improve weak interfaces | [Best design audit skills](./rankings/best-design-audit-skills.md) |
+| See the kind of improvement these skills should create | [Before / after gallery](./examples/before-after-gallery.md) |
+
 ## Why this repo exists
 
 Generic skill aggregators already exist. This repo focuses on the narrower problem: **which skills actually improve design output** for product UI, motion, brand systems, and design audits.
@@ -17,6 +30,26 @@ The goal is not to list everything. The goal is to help people quickly find the 
 - [Anti-slop rubric](./rubrics/anti-slop-rubric.md)
 - [AI UI quality rubric](./rubrics/ai-ui-quality-rubric.md)
 - [Before / after gallery](./examples/before-after-gallery.md)
+- [Repository architecture](./ARCHITECTURE.md)
+- [Contributing guide](./CONTRIBUTING.md)
+
+## How to use this repo
+
+### If you are generating UI
+
+Start with [Best frontend design skills](./rankings/best-frontend-design-skills.md), then use the [Anti-slop rubric](./rubrics/anti-slop-rubric.md) to pressure-test the output.
+
+### If you are polishing interaction quality
+
+Pair [Best motion skills](./rankings/best-motion-skills.md) with the [AI UI quality rubric](./rubrics/ai-ui-quality-rubric.md) to evaluate state changes, transitions, and perceived quality.
+
+### If you are building a visual system
+
+Use [Best brand system skills](./rankings/best-brand-system-skills.md) and then verify consistency across components and screens with the [AI UI quality rubric](./rubrics/ai-ui-quality-rubric.md).
+
+### If you are auditing weak output
+
+Start with [Best design audit skills](./rankings/best-design-audit-skills.md), then score the result with the [Anti-slop rubric](./rubrics/anti-slop-rubric.md).
 
 ## Positioning
 
@@ -28,6 +61,12 @@ It should answer questions like:
 - Which skills are strongest for motion and polish?
 - Which resources help generate coherent brand systems?
 - Which prompts or skills are useful for auditing weak AI-generated interfaces?
+
+## Curation philosophy
+
+This repo filters for **taste, quality, and practical design usefulness** rather than raw popularity. A smaller list with sharper judgment is more useful than a huge directory of loosely related links.
+
+A resource belongs higher when it improves real shipped output: stronger hierarchy, clearer interaction design, more coherent systems, and less generic AI sameness.
 
 ## Already serious aggregators
 
