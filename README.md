@@ -1,6 +1,37 @@
-# awesome-design-agent-skills
+<p align="center">
+  <img src="assets/hero.svg" alt="Awesome Design Agent Skills" width="100%">
+</p>
+
+<h1 align="center">Awesome Design Agent Skills</h1>
+
+<p align="center">
+  <strong>A ranked design-quality layer for Claude Code, Codex, Cursor, Gemini CLI, v0, Lovable, and the next wave of UI agents.</strong>
+</p>
+
+<p align="center">
+  <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg"></a>
+  <a href="LICENSE"><img alt="License: CC0" src="https://img.shields.io/badge/license-CC0-111827.svg"></a>
+  <a href="CONTRIBUTING.md"><img alt="Contributions welcome" src="https://img.shields.io/badge/contributions-welcome-14b8a6.svg"></a>
+</p>
+
+<p align="center">
+  <a href="#tldr">TL;DR</a> ·
+  <a href="#start-here">Start here</a> ·
+  <a href="rubrics/anti-slop-rubric.md">Anti-slop rubric</a> ·
+  <a href="examples/before-after-gallery.md">Gallery</a> ·
+  <a href="ARCHITECTURE.md">Architecture</a>
+</p>
 
 A curated map of design skills for AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, v0, Lovable, and beyond.
+
+## Quality Thesis
+
+| Layer | What this repo helps decide |
+| --- | --- |
+| Generation | Which skills reliably produce stronger first-pass product UI. |
+| Polish | Which resources improve hierarchy, spacing, motion, color, and density. |
+| Audit | Which rubrics catch generic AI UI before it ships. |
+| Systemization | Which patterns make design output reusable across products and teams. |
 
 ## TL;DR
 

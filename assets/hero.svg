@@ -1,0 +1,23 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="520" rx="32" fill="#09111A"/>
+  <rect x="72" y="72" width="1136" height="376" rx="28" fill="#F8FAFC" opacity="0.06"/>
+  <rect x="126" y="122" width="310" height="276" rx="18" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.35"/>
+  <rect x="478" y="122" width="310" height="276" rx="18" fill="#0F172A" stroke="#2DD4BF" stroke-opacity="0.45"/>
+  <rect x="830" y="122" width="310" height="276" rx="18" fill="#0F172A" stroke="#A3E635" stroke-opacity="0.35"/>
+  <rect x="160" y="162" width="150" height="18" rx="9" fill="#E0F2FE"/>
+  <rect x="160" y="200" width="230" height="12" rx="6" fill="#94A3B8"/>
+  <rect x="160" y="226" width="190" height="12" rx="6" fill="#64748B"/>
+  <rect x="160" y="282" width="82" height="48" rx="10" fill="#38BDF8" opacity="0.9"/>
+  <rect x="258" y="282" width="82" height="48" rx="10" fill="#2DD4BF" opacity="0.9"/>
+  <rect x="356" y="282" width="42" height="48" rx="10" fill="#A3E635" opacity="0.9"/>
+  <circle cx="556" cy="204" r="46" fill="#2DD4BF" opacity="0.24"/>
+  <circle cx="634" cy="204" r="46" fill="#38BDF8" opacity="0.24"/>
+  <circle cx="712" cy="204" r="46" fill="#A3E635" opacity="0.24"/>
+  <rect x="530" y="294" width="206" height="16" rx="8" fill="#E2E8F0"/>
+  <rect x="556" y="326" width="154" height="12" rx="6" fill="#94A3B8"/>
+  <path d="M900 320L944 190L991 275L1032 222L1070 320H900Z" fill="#2DD4BF" opacity="0.82"/>
+  <circle cx="1050" cy="176" r="24" fill="#F8FAFC" opacity="0.88"/>
+  <text x="120" y="472" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Taste systems for agent-built interfaces</text>
+  <text x="120" y="86" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">Design Agent Skills</text>
+  <text x="124" y="116" fill="#99F6E4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Generate, polish, audit, systemize</text>
+</svg>
