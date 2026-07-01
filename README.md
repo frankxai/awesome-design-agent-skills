@@ -35,7 +35,7 @@ A curated map of design skills for AI coding agents: Claude Code, Codex, Cursor,
 
 ## TL;DR
 
-This is not a giant dump of links. It is a design-specific curation layer for people who want better AI-generated UI, stronger brand systems, more tasteful motion, and sharper design audits.
+This is not a giant dump of links. It is a design-specific curation layer for people who want better AI-generated UI, stronger brand systems, more tasteful motion, and sharper design audits — all powered by explicit loops (not raw prompts) using DESIGN.md, SKILL.md, rubrics, and hooks for L99 output across agents including Codex.
 
 | If you want to… | Start here |
 | --- | --- |
@@ -110,6 +110,7 @@ These resources already matter, and this repo should complement them rather than
 | [Anthropic frontend-design skill](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) | Official-ish frontend design skill inside the Claude Code repo | A strong baseline for anti-slop frontend generation and a useful reference standard. |
 | [VoltAgent/awesome-claude-design](https://github.com/VoltAgent/awesome-claude-design) | Ready-to-use `DESIGN.md` inspirations | Useful prompt and template layer for design-system-driven UI generation. |
 | [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | Curated design skill files for Claude Code, Cursor, Codex, and others | The closest existing repo to an "awesome design skills" concept. |
+| [starlight-design-intelligence](https://github.com/frankxai/starlight-design-intelligence) | Starlight design system constraints and automation checks | Enforces brand constraints, premium typography, and UI quality gates across swarms. |
 
 ## What belongs here
 
@@ -138,9 +139,22 @@ A resource should rank higher when it:
 4. Helps with system-level consistency, not just single-screen mockups
 5. Includes examples, templates, or skill files people can reuse directly
 
-## Suggested next expansion
+## Suggested next expansion (Prioritized for L99 Top-Notch)
 
-- Add more design-skill sources as they appear
-- Add concrete examples from real generated interfaces
-- Separate rankings by workflow stage: generation, polish, audit, and systemization
-- Track which skills are strongest by agent ecosystem
+- Add more design-skill sources as they appear (VoltAgent, new GSAP releases, fresh premium 2026 systems)
+- Add concrete full-loop traces + before/after from real L99 runs (use examples/ + link from rankings)
+- Separate + expand rankings by workflow stage (already started): generation, polish, audit, systemization, brand fidelity
+- Track which skills are strongest by agent ecosystem (Codex vs Claude vs Grok) with evidence scores
+- Maintain rubrics/premium-generation-gate.md and anti-slop as living documents — update from meta-loop outcomes
+- Cross-link every ranking entry to the exact skill file in design-agent-skills/ and to DESIGN.md tokens
+- Add "setup" guidance: how to adopt the whole system via ADOPTION_SCRIPT + starlight-design-agent-skills hooks
+
+## How to Contribute (High Bar)
+1. Only submit resources that have been shown (with evidence) to raise output from <80 to 95+ on the rubrics.
+2. Include why it beats generic / raw prompting (loop structure, tokens, critic, GSAP, etc.).
+3. Update at least one ranking list + the anti-slop or premium gate if relevant.
+4. Prefer agent-agnostic over single-harness.
+
+This repo + design-agent-standards + design-agent-skills together form the complete "awesome + executable + enforced" design intelligence layer.
+
+Run ADOPTION_SCRIPT.ps1 in consuming repos. See DESIGN_TASTE.md L99 section for ensure-everywhere matrix.
