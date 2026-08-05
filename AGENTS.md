@@ -28,11 +28,11 @@ This repo is the public design-agent discovery layer.
 
 For any site, app, landing page, dashboard, visual identity, brand, motion, media, social, or frontend task, apply the shared Design Taste Kernel before handoff:
 
-- C:\Users\frank\starlight\repos\DESIGN_TASTE.md
-- C:\Users\frank\starlight\repos\WEB_EXPERIENCE_STANDARD.md
-- C:\Users\frank\starlight\repos\MOTION_TASTE_RUBRIC.md
-- C:\Users\frank\starlight\repos\MULTI_AGENT_DESIGN_COUNCIL.md
-- C:\Users\frank\starlight\repos\VISUAL_QA_GATE.md
+- C:\Users\frank\starlight\repos\design-agent-standards\DESIGN_TASTE.md
+- C:\Users\frank\starlight\repos\design-agent-standards\WEB_EXPERIENCE_STANDARD.md
+- C:\Users\frank\starlight\repos\design-agent-standards\MOTION_TASTE_RUBRIC.md
+- C:\Users\frank\starlight\repos\design-agent-standards\MULTI_AGENT_DESIGN_COUNCIL.md
+- C:\Users\frank\starlight\repos\design-agent-standards\VISUAL_QA_GATE.md
 
 When motion, scroll, generated media, GIF/video, or premium polish matters, route through the Motion Design Studio plugin/skills and verify the result visually.
 
