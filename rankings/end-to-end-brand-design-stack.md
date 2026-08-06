@@ -33,6 +33,30 @@ GitHub stars are included only as a discovery signal and were sampled on 2026-08
 | UI compliance audit | [Vercel agent skills](https://github.com/vercel-labs/agent-skills) | Official `web-design-guidelines` skill fetches current interface rules and reports terse file-level findings | Audit layer, not identity creation; repository terms are mixed | Mixed / per-skill | 29,782 |
 | Codex-native catalog | [OpenAI skills](https://github.com/openai/skills) | First-party Codex skill distribution and packaging reference | No complete end-to-end brand-identity authority was identified in this snapshot | Mixed / per-skill | 24,553 |
 
+### Production system and toolchain leaders
+
+These tools are less likely to market themselves as one-click agent magic, but
+they supply the editable artifacts and deterministic evidence a production brand
+system needs.
+
+| Role | Leader | Unique contribution | Adoption boundary | License signal |
+| --- | --- | --- | --- | --- |
+| Strategy sequence | [Brand Building Skills](https://github.com/arnabbagxd/Brand-building-skills) | Portable skills for context, audience, positioning, architecture, naming, voice, identity brief, guidelines, launch, and measurement | Instruction framework, not validated research or legal clearance; senior review remains mandatory | MIT |
+| Agent-readable design contract | [Google `design.md`](https://github.com/google-labs-code/design.md) | Validated YAML tokens plus ordered Markdown guidance and Stitch interoperability | Alpha and evolving; pin schema/version and never make it the sole source of truth | Apache-2.0 |
+| Design-token contract | [DTCG](https://github.com/design-tokens/community-group) + [Style Dictionary](https://github.com/style-dictionary/style-dictionary) | Standard token semantics and deterministic cross-platform transforms | Syntax and transforms do not prove semantic naming, accessibility, or component adoption | W3C mixed document/software terms + Apache-2.0 |
+| Editable vector canvas | [Penpot](https://github.com/penpot/penpot) | Open vector design, components, tokens, inspectable structure, and integrated MCP | MCP needs an active trusted plugin/tab; audit code-mode operations and retain editable masters | MPL-2.0 |
+| Component workbench | [Storybook](https://github.com/storybookjs/storybook) | Isolated component states, documentation, interaction testing, and visual-regression ecosystem | Does not replace full-route, responsive, content, navigation, or end-to-end UX tests | MIT |
+| Rendered browser QA | [Playwright](https://github.com/microsoft/playwright) + [Playwright MCP](https://github.com/microsoft/playwright-mcp) | Chromium, Firefox, and WebKit paths, screenshots, traces, responsive states, and agent access | Pin browsers/fonts/data and disable unstable animation; screenshots do not judge artistic quality | Apache-2.0 |
+| Brand extraction and drift | [Dembrandt](https://github.com/dembrandt/dembrandt) | Extracts typography, color, spacing, components, motion, DTCG tokens, and DESIGN.md from owned rendered sites; CI drift comparison | Use only on owned/authorized properties; dynamic Canvas/WebGL states are limited | MIT |
+| Accessibility engine | [axe-core](https://github.com/dequelabs/axe-core) | Deterministic WCAG rule coverage in browser and CI | Automated checks cannot replace keyboard, screen-reader, zoom, cognitive, and content review | MPL-2.0 |
+| Performance budgets | [Lighthouse](https://github.com/GoogleChrome/lighthouse) + [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) | Repeatable performance, accessibility, SEO, and best-practice budgets and trends | Synthetic scores vary by environment and are not visual-quality or UX scores | Apache-2.0 |
+| Reproducible image workflow | [ComfyUI](https://github.com/Comfy-Org/ComfyUI) | Node-graph image generation/editing with masks, compositing, upscaling, saved workflows, and API execution | Core, model, custom-node, training-data, and output rights differ; never ship raster marks as logo masters | GPL-3.0 core |
+| Asset optimization | [SVGO](https://github.com/svg/svgo) + [sharp](https://github.com/lovell/sharp) | Deterministic SVG cleanup and responsive raster derivatives | Retain untouched editable masters and inspect geometry, transparency, and profiles after conversion | MIT + Apache-2.0 |
+
+[`Open Design`](https://github.com/nexu-io/open-design) is a high-potential
+evaluation platform, not an automatic dependency: its orchestration surface is
+large and its compatibility/security claims need environment-specific proof.
+
 ## What is installed in FrankX's current machine estate
 
 These are point-in-time observations from 2026-08-06. Re-verify executable
@@ -40,25 +64,27 @@ versions, authentication, skill hashes, and provider access before production us
 
 | Capability | Verified state | Evidence / note |
 | --- | --- | --- |
-| UI UX Pro Max | Installed globally for Claude Code, Codex, and Gemini; CLI `ui-ux-pro-max-cli@2.11.0` | `~/.claude/skills/ui-ux-pro-max`, `~/.codex/skills/ui-ux-pro-max`, `~/.gemini/skills/ui-ux-pro-max` |
+| UI UX Pro Max | Installed globally for Claude Code, Codex, OpenCode, and Gemini; CLI `ui-ux-pro-max-cli@2.11.0` | Shared skill directories exist, but platform bodies and update provenance need one pinned manifest |
 | Impeccable | Installed globally across Claude, Codex universal skills, Gemini, Grok, Cursor, GitHub Copilot, and OpenCode; skill payload reports `4.0.4` | Installed 2026-08-06 from canonical `pbakaus/impeccable`; project hooks still require per-repo review/trust |
-| Brand/design helper pack | Installed for Claude, Codex, and Gemini | `brand`, `design`, `design-system`, `banner-design`, `ui-styling`; provenance/version pinning should be made explicit |
-| Hermes design operating skills | Installed | `estate-design-excellence`, `brand-media-ops`, `premium-ui-components`, `design-md`, `popular-web-designs`, image workflows, responsive and accessibility release audits |
-| Claude Code | Installed and authenticated | CLI `2.1.53`; strong design/plugin ecosystem |
-| Codex CLI | Installed and authenticated | CLI `0.112.0`; product-design plugin material exists in cache, but cache is not proof of active installation |
-| OpenCode / Gemini CLI | Installed | OpenCode `1.2.24`; Gemini CLI `0.27.3` |
-| 21st.dev CLI | Installed but not production-ready | CLI `0.8.2`; `whoami` reports not logged in |
-| Figma bridge | Not verified active | Cached/plugin files or an MCP entry are not proof of authenticated design-file access or Code Connect usage |
-| Image generation | Active through Hermes | Grok Imagine image/video is available; deterministic text, diagrams, tokens, and logo masters must remain code/vector based |
-| Visual QA | Installed | Playwright/CDP, responsive release audits, Impeccable detector, Lighthouse/axe patterns, screenshot inspection |
+| Brand/design helper pack | Installed for Claude, Codex, OpenCode, and Gemini | `brand`, `design`, `design-system`, `banner-design`, and `ui-styling` are hash-identical; the shared `design` skill hardcodes a Claude path and is not portable |
+| Hermes design operating skills | Installed | Hermes `0.18.2`; strongest governed image/video and release workflow, but four profiles carry drift in two design skills |
+| Claude Code | Installed and authenticated | CLI `2.1.215`; richest connected surface, including enabled `frontend-design` and Playwright plus Figma/Canva/media MCP entries |
+| Codex CLI | Installed and authenticated | CLI `0.144.5`; strong implementation/artifact/QA plugins; cached Figma/Canva/Remotion/Cloudinary material is explicitly not installed |
+| OpenCode | Installed but degraded | CLI `1.14.48`; `opencode mcp list` fails on a NUL JSON parse, 281 duplicate skill names were found across 694 discovery paths, and local plugin dependency links are broken |
+| Gemini CLI | Installed with limited integration | CLI `0.51.0`; shared skills load, but no extensions are installed and only Starlight MCPs are connected |
+| 21st.dev CLI | Installed but not production-ready | CLI `1.12.0`; account-backed discovery/generation is not authenticated |
+| Figma bridge | Present on Claude, not estate-wide proven | Active authenticated design-file, Variables, and Code Connect use has not been demonstrated for a named production workflow |
+| Image and media generation | Active through Hermes | Grok Imagine image/video is active; ComfyUI skill exists but the executable/service is absent; exact text, diagrams, tokens, and logos remain deterministic |
+| Production visual QA | Partially available | Playwright and governed audits exist, but project-local repeatable visual baselines, axe/LHCI receipts, and design-drift checks are not standardized estate-wide |
 
 ### Duplication and drift to fix
 
-- Multiple UI/UX, design-system, image-generation, infographic, and Playwright skills overlap. Triggering becomes weaker when all claim the same job.
-- UI UX Pro Max's Claude and Codex skill files have diverged hashes; distribution updates need one pinned source and reproducible install receipt.
-- Several nested self-copies and deprecated skills exist in the Claude skill tree.
-- `21st` is installed but unauthenticated; Figma is discoverable but not proven active.
-- Public design skills are strongest at UI generation. Logo construction, font licensing, trademark clearance, and brand governance need owned authority.
+- The live `.agent-harness` doctrine is hash-aligned to a mirror but its core files are uncommitted, so it has no durable provenance or release history.
+- OpenCode is not a trusted design runner until its NUL parse failure, duplicate discovery roots, and broken package links are repaired.
+- `estate-design-excellence` and `brand-media-ops` drift in four Hermes profiles and need intentional reconciliation or pinning.
+- Shared skills need one cross-client distribution manifest with source, version, hash, supported clients, and adapter differences.
+- `21st` is unauthenticated; Figma connectivity is asymmetric; ComfyUI is not operational.
+- Public design skills remain strongest at UI generation. Logo construction, font licensing, trademark clearance, and brand governance need owned authority.
 
 ## The production workflow
 
@@ -109,7 +135,12 @@ For every family and weight, record source, foundry/author, license/EULA, acquir
 
 ### 6. Tokens, components, and DESIGN.md
 
-Create semantic design tokens and validate an implementation-facing DESIGN.md. Keep tokens, components, themes, responsive rules, and exceptions evidence-based. Use UI UX Pro Max for search, not as automatic authority. Use approved component sources only and record provenance, license, dependencies, accessibility, and runtime cost.
+Maintain both an implementation-facing `DESIGN.md` and DTCG-compatible token
+source. Transform platform outputs through a pinned Style Dictionary pipeline and
+fail CI when generated outputs are stale. Keep tokens, components, themes,
+responsive rules, and exceptions evidence-based. Use UI UX Pro Max for search,
+not as automatic authority. Use approved component sources only and record
+provenance, license, dependencies, accessibility, and runtime cost.
 
 ### 7. Asset system
 
@@ -130,10 +161,12 @@ Exact text, charts, UI, and logos use deterministic code/vector/layout tools. Im
 Implement the selected system in the owning product repository. Then run independent checks:
 
 - visual comparison at desktop, mobile, 320px/reflow, and reduced motion;
+- Storybook coverage for normal, hover, focus, active, disabled, loading, empty, error, overflow, localization, and dense states;
+- Playwright journeys in Chromium, Firefox, and WebKit with reviewed deterministic baselines and traces;
 - keyboard, focus, semantics, contrast, touch targets, 200% zoom, and screen-reader-relevant status behavior;
 - type rendering, font license/source, loading, and CLS;
-- Impeccable detector plus human critique;
-- Playwright browser paths, console, links, claims, privacy, analytics, performance, and failure states;
+- Impeccable detector plus human critique and Dembrandt drift comparison against owned approved previews;
+- axe automated checks, Lighthouse/LHCI budgets, console, links, claims, privacy, analytics, performance, and failure states;
 - asset provenance and license review.
 
 ### 9. Release, approval, and rollback
@@ -162,8 +195,9 @@ Machine governance   .agent-harness + Hermes design skills
 Pattern intelligence UI UX Pro Max
 Taste loop           Impeccable + Anthropic frontend-design + Taste Skill
 Motion craft         Emil Kowalski + owned motion-and-interaction
-Systemization        DESIGN.md + design-system extractor
-QA                    Impeccable detector + Playwright + axe + Lighthouse + verifier
+Vector handoff        owned SVG masters + Penpot where a human canvas is required
+Systemization        DESIGN.md + DTCG + Style Dictionary + Storybook
+QA                    Impeccable + Playwright + axe + LHCI + Dembrandt + verifier
 Production           owning product repo + CI + deployment receipt + rollback
 ```
 
@@ -177,6 +211,10 @@ Production           owning product repo + CI + deployment receipt + rollback
 | Use Taste Skill selectively for marketing/portfolio variance | Research/adopt per project; not a dashboard default |
 | Use Emil Kowalski for interaction craft | Adopt as specialist reference |
 | Use ibelick `create-design-md` concepts for evidence-based system extraction | Adopt alongside the local DESIGN.md validator |
+| Use DTCG + Style Dictionary for machine-readable token distribution | Adopt per product with pinned schema/tool versions and stale-output CI |
+| Use Storybook as the component state/documentation workbench | Adopt where a maintained component system exists; do not substitute it for route QA |
+| Use Penpot as an editable vector/canvas handoff | Evaluate for logo/component collaboration; audit the integrated MCP and every code-mode action |
+| Use Dembrandt against owned previews for extraction and drift | Evaluate in a bounded project before making it a release gate |
 | Treat 21st.dev and Figma as active production sources | Blocked until authentication, license/source review, and a verified project workflow |
 | Let image generation output final logos or exact UI | Blocked |
 
@@ -190,4 +228,16 @@ Production           owning product repo + CI + deployment receipt + rollback
 - [ibelick/ui-skills](https://github.com/ibelick/ui-skills)
 - [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills)
 - [OpenAI Skills](https://github.com/openai/skills)
+- [Brand Building Skills](https://github.com/arnabbagxd/Brand-building-skills)
+- [Google design.md](https://github.com/google-labs-code/design.md)
+- [Design Tokens Community Group](https://github.com/design-tokens/community-group)
+- [Style Dictionary](https://github.com/style-dictionary/style-dictionary)
+- [Penpot](https://github.com/penpot/penpot)
+- [Storybook](https://github.com/storybookjs/storybook)
+- [Playwright](https://github.com/microsoft/playwright)
+- [Dembrandt](https://github.com/dembrandt/dembrandt)
+- [axe-core](https://github.com/dequelabs/axe-core)
+- [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci)
+- [ComfyUI](https://github.com/Comfy-Org/ComfyUI)
+- [SVGO](https://github.com/svg/svgo) and [sharp](https://github.com/lovell/sharp)
 - [Starlight Design Intelligence](https://github.com/frankxai/starlight-design-intelligence)
