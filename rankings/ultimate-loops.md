@@ -16,7 +16,7 @@ decision ownership, and production proof.
 8. **Critique and refine:** Impeccable/Anthropic/Taste/Emil chosen by task—not all at once.
 9. **Run deterministic QA:** detector, Playwright, axe, Lighthouse, links, console, type rendering, provenance.
 10. **Inspect rendered truth:** desktop, mobile, 320px/reflow, reduced motion, key states, assets at use size.
-11. **Separate responsibility:** maker, verifier, and named approver are different for flagship releases.
+11. **Separate responsibility:** maker, verifier, and named approver are different for flagship identity and public production work.
 12. **Deploy and prove:** exact commit, preview, production URL, post-deploy inspection, hashes, rollback.
 
 ## Tool routing

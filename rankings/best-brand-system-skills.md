@@ -13,12 +13,13 @@ This ranking focuses on resources that help agents create interfaces with a cohe
 
 ### 1. Starlight Design Intelligence
 
-**Best for:** owned end-to-end authority across strategy, brand boundaries, logo
-and type rights, design/motion systems, assets, rendered QA, approval, release
-evidence, and rollback.
+**Best for:** owned design authority across strategy, brand boundaries, logo and
+type rights, design/motion systems, assets, rendered QA, approval, and release-
+contract requirements. The product repository, CI, and deployment receipt own
+production proof and rollback.
 
 Why it leads: public UI skills optimize generation; this owned kernel governs the
-decisions and proves they reached production.
+decisions and defines the evidence a product repository must prove in production.
 
 ### 2. ibelick `create-design-md`
 

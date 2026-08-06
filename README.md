@@ -40,12 +40,14 @@ proof.
 | Interaction craft | [Emil Kowalski skills](https://github.com/emilkowalski/skills) | Motion frequency, easing, interruption, microinteractions, and reduced motion |
 | DESIGN.md extraction | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | Evidence-led design-system recovery |
 | UI compliance | [Vercel Agent Skills](https://github.com/vercel-labs/agent-skills) | Current web-interface guideline audit |
-| Owned authority | [Starlight Design Intelligence](https://github.com/frankxai/starlight-design-intelligence) | Brand packs, logo/type rights, quality gates, release evidence, approval, and rollback |
+| Owned authority | [Starlight Design Intelligence](https://github.com/frankxai/starlight-design-intelligence) | Brand packs, logo/type rights, quality gates, approval, and release-contract requirements |
 
 > [!IMPORTANT]
 > No public skill is an end-to-end brand authority. Generated logos are not vector
 > masters; font presence is not licensing; screenshots are not production proof;
 > stars are not quality scores. Use the full evidence and release loop.
+
+<!-- Keep the two GitHub callouts distinct for markdownlint MD028. -->
 
 > [!TIP]
 > New to agent skills? Start with the [Getting Started Guide](./GETTING_STARTED.md),
