@@ -11,27 +11,43 @@ This ranking focuses on resources that help agents create interfaces with a cohe
 
 ## Current top picks
 
-### 1. VoltAgent/awesome-claude-design
+### 1. Starlight Design Intelligence
 
-**Best for:** translating a design direction into a reusable system feel.
+**Best for:** owned design authority across strategy, brand boundaries, logo and
+type rights, design/motion systems, assets, rendered QA, approval, and release-
+contract requirements. The product repository, CI, and deployment receipt own
+production proof and rollback.
 
-Why it ranks first:
+Why it leads: public UI skills optimize generation; this owned kernel governs the
+decisions and defines the evidence a product repository must prove in production.
 
-- `DESIGN.md` patterns are naturally system-oriented
-- It is strong for setting visual rules before implementation fan-out
-- It helps agents maintain consistency across multiple screens
+### 2. ibelick `create-design-md`
 
-### 2. bergside/awesome-design-skills
+**Best for:** evidence-led recovery of an existing design system into DESIGN.md
+without confusing implementation accidents for intended rules.
 
-**Best for:** discovering cross-tool skills that carry explicit design-system intent.
+### 3. UI UX Pro Max
 
-### 3. Anthropic frontend-design skill
+**Best for:** broad system scaffolds, searchable patterns, palette/type guidance,
+and implementation recommendations across many stacks.
 
-**Best for:** taking a brand direction and turning it into polished shipped UI.
+### 4. Impeccable
 
-### 4. VoltAgent/awesome-agent-skills
+**Best for:** initializing product/brand context and preserving visual decisions
+through repeated frontend implementation and critique.
 
-**Best for:** sourcing extra system and component skills from a much broader catalog.
+### 5. Anthropic `frontend-design`
+
+**Best for:** translating a selected direction into distinctive implemented UI.
+
+### Important correction
+
+Anthropic's public `brand-guidelines` skill applies Anthropic's own brand to
+artifacts. It is not a generic workflow for discovering another company's
+strategy, logo, typography rights, or identity system.
+
+See [the end-to-end stack](./end-to-end-brand-design-stack.md) for the full
+brand-to-production workflow and capability boundaries.
 
 ## Signs a brand-system skill is actually useful
 
