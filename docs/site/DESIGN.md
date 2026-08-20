@@ -1,6 +1,8 @@
 # docs/site — design record
 
-Surface: public landing page for the registry (`index.html`, standalone, GitHub-Pages-ready). Mode: Persuade. Built 2026-08-20 through the `/pwd` premium-web-design pipeline (council of five roles + independent humanizer voice review + browser QA gate).
+Surface: public landing page for the registry (`index.html`, standalone, GitHub-Pages-ready). Mode: Persuade. Built 2026-08-20 through the `/studio` pipeline (council of five roles + independent humanizer voice review + deterministic browser QA gate).
+
+**The desktop survey plate is compiled, not drawn.** `build-plate.mjs` reads `../../registry/registry.json` and regenerates the SVG between the `plate:auto` markers: vertical position and mark area are computed (√ stars), horizontal band placement and label offsets are composed in the script's curated table, the spine polyline follows its members' computed coordinates, and uncomposed new entries emit a warning instead of a fake mark. Run it after any registry change. (v1 hand-plotted marks drifted up to 31px from their true scale positions — the compiler killed that class of error.) The mobile band remains a hand-composed excerpt by design.
 
 ## Direction
 
