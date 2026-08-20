@@ -29,6 +29,17 @@ proof.
 - **[Best design audit skills](./rankings/best-design-audit-skills.md)** — deterministic and human review.
 - **[Ultimate loops](./rankings/ultimate-loops.md)** — how to compose the tools without losing authority.
 
+## Cross-harness registry (2026-08)
+
+Every agentic design skill on GitHub, live-verified per harness: **[registry/](./registry/README.md)** — [Claude Code](./registry/claude-code.md) · [Codex](./registry/codex.md) · [Gemini CLI + Antigravity](./registry/gemini-antigravity.md) · [Grok](./registry/grok.md) · [Cursor](./registry/cursor.md) · [cross-harness standards](./registry/cross-harness.md) · [registry.json](./registry/registry.json) (machine-readable).
+
+The headline finding: the three biggest design skills (ui-ux-pro-max 118k★, taste-skill 78k★, impeccable 61k★) are harness-agnostic SKILL.md packs — quality now follows the installed pack, not the harness.
+
+## Knowledge layer
+
+- **[How elite web teams actually work](./docs/how-elite-web-teams-work.md)** — the sourced 10-phase studio SOP, Awwwards' real 40/30/20/10 rubric, 15 anti-generic principles, and a slop-vs-craft voice guide.
+- **[The 2026 premium web stack](./docs/premium-web-stack-2026.md)** — verified library, icon, type, and image-model landscape, including the ten things agents most often get wrong.
+
 ## Current high-signal stack
 
 | Job | Recommended leader | Use it for |
