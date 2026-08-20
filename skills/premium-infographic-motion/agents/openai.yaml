@@ -1,0 +1,4 @@
+interface:
+  display_name: "Premium Infographic Motion"
+  short_description: "Research, compose, animate, and score exact premium infographics"
+  default_prompt: "Create a premium infographic using a generated hero layer, deterministic typography and diagrams, an inspected export, a motion beat sheet, and a transparent cost ledger."
