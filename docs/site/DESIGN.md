@@ -1,6 +1,6 @@
 # docs/site — design record
 
-Surface: public landing page for the registry (`index.html`, standalone, GitHub-Pages-ready). Mode: Persuade. Built 2026-08-20 through the `/studio` pipeline (council of five roles + independent humanizer voice review + deterministic browser QA gate).
+Surface: public landing page for the registry (`index.html`, standalone, GitHub-Pages-ready). Mode: Persuade. Built 2026-08-20 through a design-council pass; 2026-08-21 absorbed into `/pwo` (Premium Web OS). `/studio` and `/pwd` are retired aliases, not a second conductor.
 
 **The desktop survey plate is compiled, not drawn.** `build-plate.mjs` reads `../../registry/registry.json` and regenerates the SVG between the `plate:auto` markers: vertical position and mark area are computed (√ stars), horizontal band placement and label offsets are composed in the script's curated table, the spine polyline follows its members' computed coordinates, and uncomposed new entries emit a warning instead of a fake mark. Run it after any registry change. (v1 hand-plotted marks drifted up to 31px from their true scale positions — the compiler killed that class of error.) The mobile band remains a hand-composed excerpt by design.
 
@@ -16,7 +16,7 @@ Surface: public landing page for the registry (`index.html`, standalone, GitHub-
 
 - Light-first, not dark: the SIS foundation reset (2026-08-17, starlight-design-intelligence) supersedes the older dark-cinematic Starlight world for SIS surfaces — "clear institutional light with an optional night mode." Scoped to this surface.
 - Celestial as information architecture only: every star is a measured registry entry; no ambient starfields, no glow.
-- Sizing honesty: √ scale (counts span 7 → 170k), unmeasured entries shown as rings, method published in the figure caption.
+- Sizing honesty: √ scale uses **this-repo** stars only. Parent-pack stars (frontend-design inside anthropics/skills; vercel guidelines inside vercel-labs/agent-skills) are dashed diamonds, labeled, never scaled. Unmeasured entries are rings. Method published in the figure caption.
 - Ledger rows, not cards, for the catalog; primary CTA is ink-filled (amber reserved for data marks).
 - H1 "surveyed" over "charted" (a survey records position and brightness — which is exactly what the plate does).
 - ui-ux-pro-max dark-cinema/green suggestion overridden per brand canon (logged, not silently dropped).
@@ -30,3 +30,5 @@ Surface: public landing page for the registry (`index.html`, standalone, GitHub-
 - Console: zero errors. Network: no 404s; fonts loaded.
 
 Follow-ups: replace OG image with a rendered plate crop; capture desktop/mobile screenshots when a compositing pane is available.
+
+2026-08-21: plate scale is this-repo only (max = gstack). Parent-pack marks are dashed diamonds. `/studio` retired in favor of `/pwo`.
