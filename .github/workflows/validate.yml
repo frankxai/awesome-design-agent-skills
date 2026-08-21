@@ -26,4 +26,4 @@ jobs:
       - name: Survey plate matches registry
         run: |
           node docs/site/build-plate.mjs
-          git diff --exit-code -- docs/site/index.html docs/site/plate.json
+          git diff --exit-code -- docs/site/index.html docs/site/og.html docs/site/plate.json

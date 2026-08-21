@@ -31,4 +31,4 @@ Surface: public landing page for the registry (`index.html`, standalone, GitHub-
 
 Follow-ups: capture desktop/mobile screenshots when a compositing pane is available.
 
-2026-08-21: plate scale is this-repo only (max = gstack). Parent-pack marks are dashed diamonds. `/studio` retired in favor of `/pwo`. Mobile plate and caption compile from the same registry. OG 1200x630 rasters from `plate.json` (not a generated stand-in).
+2026-08-21: plate scale is this-repo only (max = gstack). Parent-pack marks are dashed diamonds without parent star counts on the figure. `/studio` retired in favor of `/pwo`. Mobile plate compiles from the registry. OG is a 1200×630 screenshot of `og.html` (the labeled plate), not a redrawn blob chart.

@@ -12,6 +12,7 @@ import { fileURLToPath } from "node:url";
 const here = dirname(fileURLToPath(import.meta.url));
 const registry = JSON.parse(readFileSync(join(here, "..", "..", "registry", "registry.json"), "utf8"));
 const htmlPath = join(here, "index.html");
+const ogHtmlPath = join(here, "og.html");
 
 const PLOT = (e) => e.verdict === "essential";
 const SPINE = ["ui-ux-pro-max", "taste-skill", "impeccable", "emilkowalski-skills"];
@@ -118,7 +119,7 @@ for (const name of order) {
     svg += `        <g class="cg"><circle class="ringed ${sClass[name]}" cx="${n.cx}" cy="${n.cy}" r="${n.r}"/><text class="lbl n" x="${lx}" y="${ly}">${label}</text></g>\n`;
   } else if (n.kind === "parent") {
     const half = 5;
-    svg += `        <g class="cg"><rect class="parent ${sClass[name]}" x="${(n.cx - half).toFixed(1)}" y="${(n.cy - half).toFixed(1)}" width="10" height="10" transform="rotate(45 ${n.cx} ${n.cy})"/><text class="lbl n" x="${lx}" y="${ly}">${label} <tspan class="n">parent ${fmt(n.e.stars)}</tspan></text></g>\n`;
+    svg += `        <g class="cg"><rect class="parent ${sClass[name]}" x="${(n.cx - half).toFixed(1)}" y="${(n.cy - half).toFixed(1)}" width="10" height="10" transform="rotate(45 ${n.cx} ${n.cy})"/><text class="lbl n" x="${lx}" y="${ly}">${label}</text></g>\n`;
   } else {
     const spine = SPINE.includes(name) ? " spine" : "";
     svg += `        <g class="cg"><circle class="star${spine} ${sClass[name]}" cx="${n.cx}" cy="${n.cy}" r="${n.r}"/><text class="lbl" x="${lx}" y="${ly}">${label} <tspan class="n">${fmt(n.e.stars)}</tspan></text></g>\n`;
@@ -161,6 +162,10 @@ html = splice(html, "<!-- plate:auto:start -->", "<!-- plate:auto:end -->", svg)
 html = splice(html, "<!-- mplate:auto:start -->", "<!-- mplate:auto:end -->", msvg);
 html = splice(html, "<!-- mcaption:auto:start -->", "<!-- mcaption:auto:end -->", `      ${mcaption}`);
 writeFileSync(htmlPath, html);
+
+let ogHtml = readFileSync(ogHtmlPath, "utf8");
+ogHtml = splice(ogHtml, "<!-- plate:auto:start -->", "<!-- plate:auto:end -->", svg);
+writeFileSync(ogHtmlPath, ogHtml);
 
 const plate = {
   auditDate: registry.auditDate,
