@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OG — the design-agent sky</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:#F4F6F8;color:#0E1B33}
+  body{font-family:"IBM Plex Sans",system-ui,sans-serif}
+  .board{
+    width:1200px;height:630px;box-sizing:border-box;
+    display:grid;grid-template-columns:380px 1fr;gap:28px;
+    padding:40px 44px 36px;align-items:center;
+  }
+  .kicker{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.14em;
+          text-transform:uppercase;color:#8A3F07;margin:0 0 18px}
+  h1{font-family:"Bricolage Grotesque",Georgia,serif;font-weight:600;font-size:48px;line-height:1.05;
+     letter-spacing:-.015em;margin:0}
+  .note{margin-top:22px;color:#5A6B85;font-size:16px;line-height:1.45;max-width:28ch}
+  .frame{background:#EFF2F5;border:1px solid #D3DAE3;border-radius:3px;padding:10px 8px 6px}
+  svg{display:block;width:100%;height:auto}
+  svg text{font-family:"IBM Plex Mono",ui-monospace,monospace}
+  .star{fill:#0E1B33}
+  .star.spine{fill:#B45309}
+  .ringed{fill:none;stroke:#5A6B85;stroke-width:1.1}
+  .parent{fill:none;stroke:#5A6B85;stroke-width:1.2;stroke-dasharray:2.5 2}
+  .cline{stroke:#0E1B33;stroke-width:.5;opacity:.34;fill:none}
+  .cline.spine{stroke:#B45309;stroke-width:1.1;opacity:.9}
+  .grat{stroke:#D3DAE3;stroke-width:.5}
+  .lbl{fill:#0E1B33;font-size:11px}
+  .lbl .n,.lbl.n{fill:#5A6B85}
+  .axis{fill:#5A6B85;font-size:10px;letter-spacing:.03em}
+</style>
+</head>
+<body>
+<div class="board">
+  <div>
+    <p class="kicker">Sky survey · 2026</p>
+    <h1>The design-agent<br>sky, surveyed.</h1>
+    <p class="note">Named skills. This-repo stars. Amber is the install spine.</p>
+  </div>
+  <div class="frame">
+    <svg viewBox="0 0 660 520" role="img">
+<!-- plate:auto:start -->
+        <line class="grat" x1="40" y1="105.2" x2="620" y2="105.2"/>
+        <line class="grat" x1="40" y1="334.1" x2="620" y2="334.1"/>
+        <line class="grat" x1="40" y1="406.5" x2="620" y2="406.5"/>
+        <text class="axis" x="622" y="108.2">100k</text>
+        <text class="axis" x="622" y="337.1">10k</text>
+        <text class="axis" x="622" y="409.5">1k</text>
+        <text class="axis" x="70" y="505">claude code</text>
+        <text class="axis" x="196" y="505">codex</text>
+        <text class="axis" x="318" y="505">universal</text>
+        <text class="axis" x="398" y="505">qa</text>
+        <text class="axis" x="452" y="505">gemini</text>
+        <text class="axis" x="524" y="505">grok</text>
+        <text class="axis" x="580" y="505">cursor</text>
+        <polyline class="cline" points="205,93.9 185,367.1"/>
+        <polyline class="cline" points="305,70.6 352,75.6"/>
+        <polyline class="cline" points="400,204.6 392,238.3"/>
+        <polyline class="cline" points="392,238.3 408,307.4"/>
+        <polyline class="cline" points="470,344.6 455,404.5"/>
+        <polyline class="cline spine" points="352,75.6 310,143.5 345,178.7 318,254.3"/>
+        <g class="cg"><circle class="star s1" cx="65" cy="60" r="18"/><text class="lbl" x="86" y="118">gstack <tspan class="n">129k</tspan></text></g>
+        <g class="cg"><circle class="star s2" cx="305" cy="70.6" r="17.6"/><text class="lbl" x="250" y="98">shadcn/ui <tspan class="n">122k</tspan></text></g>
+        <g class="cg"><circle class="star spine s3" cx="352" cy="75.6" r="17.4"/><text class="lbl" x="374" y="126">ui-ux-pro-max <tspan class="n">118k</tspan></text></g>
+        <g class="cg"><circle class="star s4" cx="205" cy="93.9" r="16.7"/><text class="lbl" x="225" y="132">codex <tspan class="n">107k</tspan></text></g>
+        <g class="cg"><circle class="star spine s5" cx="310" cy="143.5" r="14.7"/><text class="lbl" x="214" y="186">taste-skill <tspan class="n">78k</tspan></text></g>
+        <g class="cg"><circle class="star spine s6" cx="345" cy="178.7" r="13.3"/><text class="lbl" x="246" y="217">impeccable <tspan class="n">61k</tspan></text></g>
+        <g class="cg"><circle class="star s7" cx="400" cy="204.6" r="12.3"/><text class="lbl" x="414" y="224">devtools mcp <tspan class="n">49k</tspan></text></g>
+        <g class="cg"><circle class="star s8" cx="600" cy="226.6" r="11.4"/><text class="lbl" x="520" y="238">cursorrules <tspan class="n">41k</tspan></text></g>
+        <g class="cg"><circle class="star s9" cx="392" cy="238.3" r="11"/><text class="lbl" x="406" y="272">playwright <tspan class="n">36k</tspan></text></g>
+        <g class="cg"><circle class="star spine s10" cx="318" cy="254.3" r="10.3"/><text class="lbl" x="204" y="282">emilkowalski <tspan class="n">31k</tspan></text></g>
+        <g class="cg"><circle class="star s11" cx="540" cy="270.2" r="9.7"/><text class="lbl" x="500" y="268">grok build <tspan class="n">26k</tspan></text></g>
+        <g class="cg"><circle class="star s12" cx="408" cy="307.4" r="8.2"/><text class="lbl" x="420" y="322">figma ctx <tspan class="n">16k</tspan></text></g>
+        <g class="cg"><circle class="star s13" cx="330" cy="315.4" r="7.9"/><text class="lbl" x="344" y="348">gsap-skills <tspan class="n">14k</tspan></text></g>
+        <g class="cg"><circle class="star s14" cx="470" cy="344.6" r="6.8"/><text class="lbl" x="481" y="352">stitch <tspan class="n">8.1k</tspan></text></g>
+        <g class="cg"><circle class="star s15" cx="185" cy="367.1" r="5.9"/><text class="lbl" x="196" y="371">gpt-image2 <tspan class="n">4.7k</tspan></text></g>
+        <g class="cg"><circle class="star s16" cx="455" cy="404.5" r="4.4"/><text class="lbl" x="464" y="424">nanobanana <tspan class="n">1.1k</tspan></text></g>
+        <g class="cg"><rect class="parent s17" x="87.0" y="73.0" width="10" height="10" transform="rotate(45 92 78)"/><text class="lbl n" x="108" y="74">frontend-design</text></g>
+        <g class="cg"><rect class="parent s18" x="363.0" y="299.0" width="10" height="10" transform="rotate(45 368 304)"/><text class="lbl n" x="386" y="298">vercel wdg</text></g>
+        <g class="cg"><circle class="ringed s19" cx="295" cy="455" r="4.5"/><text class="lbl n" x="240" y="442">agents.md</text></g>
+        <g class="cg"><circle class="ringed s20" cx="330" cy="462" r="4.5"/><text class="lbl n" x="316" y="480">skills.sh</text></g>
+        <g class="cg"><circle class="ringed s21" cx="365" cy="455" r="4.5"/><text class="lbl n" x="374" y="452">figma mcp</text></g>
+        <g class="cg"><circle class="ringed s22" cx="400" cy="462" r="4.5"/><text class="lbl n" x="409" y="472">sdi</text></g>
+        <text class="axis" x="452" y="160" fill="var(--signal-deep)">— the spine</text>
+        <!-- plate:auto:end -->
+    </svg>
+  </div>
+</div>
+</body>
+</html>
