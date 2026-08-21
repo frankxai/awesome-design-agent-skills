@@ -2,7 +2,7 @@
 
 A sourced field study of how the world's best studios and in-house teams run web work — distilled so agent swarms can execute the same discipline. Every named-studio claim carries a link; industry-consensus generalizations are flagged as such.
 
-This document is the human-process backbone behind agentic pipelines like `/pwd` (premium web design). Pair it with the [anti-slop rubric](../rubrics/anti-slop-rubric.md) and the [end-to-end stack ranking](../rankings/end-to-end-brand-design-stack.md).
+This document is the human-process backbone behind the estate conductor `/pwo` (Premium Web OS). `/pwd` and `/studio` are retired aliases for that loop — not a second pipeline. Pair it with the [anti-slop rubric](../rubrics/anti-slop-rubric.md) and the [end-to-end stack ranking](../rankings/end-to-end-brand-design-stack.md).
 
 ---
 

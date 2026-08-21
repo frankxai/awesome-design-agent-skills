@@ -33,12 +33,13 @@ proof.
 
 Every agentic design skill on GitHub, live-verified per harness: **[registry/](./registry/README.md)** — [Claude Code](./registry/claude-code.md) · [Codex](./registry/codex.md) · [Gemini CLI + Antigravity](./registry/gemini-antigravity.md) · [Grok](./registry/grok.md) · [Cursor](./registry/cursor.md) · [cross-harness standards](./registry/cross-harness.md) · [registry.json](./registry/registry.json) (machine-readable).
 
-The headline finding: the three biggest design skills (ui-ux-pro-max 118k★, taste-skill 78k★, impeccable 61k★) are harness-agnostic SKILL.md packs — quality now follows the installed pack, not the harness.
+The headline finding: the three biggest **this-repo** design skills (ui-ux-pro-max, taste-skill, impeccable) are harness-agnostic SKILL.md packs — quality now follows the installed pack, not the harness. Parent-pack star counts (e.g. `frontend-design` inside `anthropics/skills`) are labeled in the registry and **never** used for scale or rank. See [star-count honesty](./registry/README.md#star-count-honesty).
 
 ## Knowledge layer
 
 - **[How elite web teams actually work](./docs/how-elite-web-teams-work.md)** — the sourced 10-phase studio SOP, Awwwards' real 40/30/20/10 rubric, 15 anti-generic principles, and a slop-vs-craft voice guide.
-- **[The 2026 premium web stack](./docs/premium-web-stack-2026.md)** — verified library, icon, type, and image-model landscape, including the ten things agents most often get wrong.
+- [The 2026 premium web stack](./docs/premium-web-stack-2026.md) — verified library, icon, type, and image-model landscape, including the ten things agents most often get wrong.
+- **Instruments** (run from repo root): `node scripts/slop-scan.mjs <file>` (copy lint) · `scripts/qa-probe.js` (paste into a live page) · `node scripts/eval-instruments.mjs` (standing eval) · `node docs/site/build-plate.mjs` (recompile the survey plate after registry edits).
 
 ## Current high-signal stack
 

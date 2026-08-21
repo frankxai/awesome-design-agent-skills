@@ -73,6 +73,7 @@
   .star{fill:var(--ink)}
   .star.spine{fill:var(--signal)}
   .ringed{fill:none;stroke:var(--dim);stroke-width:1.1}
+  .parent{fill:none;stroke:var(--dim);stroke-width:1.2;stroke-dasharray:2.5 2}
   .cline{stroke:var(--ink);stroke-width:.5;opacity:.34;fill:none}
   .cline.spine{stroke:var(--signal);stroke-width:1;opacity:.85}
   .grat{stroke:var(--rule);stroke-width:.5}
@@ -198,15 +199,15 @@
     <figure class="plate desktop">
       <div class="plate-frame">
       <svg viewBox="0 0 660 520" role="img" aria-labelledby="plateT plateD">
-        <title id="plateT">Survey chart of 22 design-agent skills</title>
-        <desc id="plateD">Scatter chart grouping skills by harness. Mark area scales with the square root of GitHub stars. The four universal spine skills are drawn in amber. Four unmeasured standards appear as hollow rings. The same data appears in the catalog and legend below.</desc>
+        <title id="plateT">Survey chart of design-agent skills, this-repo stars only</title>
+        <desc id="plateD">Scatter chart grouping skills by harness. Filled mark area scales with the square root of that repository's GitHub stars. Dashed diamonds are skills whose stars belong to a parent pack and are not used for scale. Four unmeasured standards appear as hollow rings. The four universal spine skills are drawn in amber.</desc>
 <!-- plate:auto:start -->
-        <line class="grat" x1="40" y1="149" x2="620" y2="149"/>
-        <line class="grat" x1="40" y1="348" x2="620" y2="348"/>
-        <line class="grat" x1="40" y1="410.9" x2="620" y2="410.9"/>
-        <text class="axis" x="622" y="152.0">100k</text>
-        <text class="axis" x="622" y="351.0">10k</text>
-        <text class="axis" x="622" y="413.9">1k</text>
+        <line class="grat" x1="40" y1="105.2" x2="620" y2="105.2"/>
+        <line class="grat" x1="40" y1="334.1" x2="620" y2="334.1"/>
+        <line class="grat" x1="40" y1="406.5" x2="620" y2="406.5"/>
+        <text class="axis" x="622" y="108.2">100k</text>
+        <text class="axis" x="622" y="337.1">10k</text>
+        <text class="axis" x="622" y="409.5">1k</text>
         <text class="axis" x="70" y="505">claude code</text>
         <text class="axis" x="196" y="505">codex</text>
         <text class="axis" x="318" y="505">universal</text>
@@ -214,32 +215,30 @@
         <text class="axis" x="452" y="505">gemini</text>
         <text class="axis" x="524" y="505">grok</text>
         <text class="axis" x="580" y="505">cursor</text>
-        <polyline class="cline" points="95,60 65,109.8"/>
-        <polyline class="cline" points="205,139.1 185,376.6"/>
-        <polyline class="cline" points="305,119 352,123.5"/>
-        <polyline class="cline" points="368,280 330,331.7"/>
-        <polyline class="cline" points="400,235.4 392,264.7"/>
-        <polyline class="cline" points="392,264.7 408,324.8"/>
-        <polyline class="cline" points="470,357.1 455,409.1"/>
-        <polyline class="cline spine" points="352,123.5 310,182.6 345,213.2 318,278.6"/>
-        <g class="cg"><circle class="star s1" cx="95" cy="60" r="18"/><text class="lbl" x="118" y="70">frontend-design <tspan class="n">170k</tspan></text></g>
-        <g class="cg"><circle class="star s2" cx="65" cy="109.8" r="16"/><text class="lbl" x="86" y="134">gstack <tspan class="n">129k</tspan></text></g>
-        <g class="cg"><circle class="star s3" cx="305" cy="119" r="15.7"/><text class="lbl" x="250" y="98">shadcn/ui <tspan class="n">122k</tspan></text></g>
-        <g class="cg"><circle class="star spine s4" cx="352" cy="123.5" r="15.5"/><text class="lbl" x="374" y="126">ui-ux-pro-max <tspan class="n">118k</tspan></text></g>
-        <g class="cg"><circle class="star s5" cx="205" cy="139.1" r="14.9"/><text class="lbl" x="225" y="122">codex <tspan class="n">107k</tspan></text></g>
-        <g class="cg"><circle class="star spine s6" cx="310" cy="182.6" r="13.2"/><text class="lbl" x="214" y="186">taste-skill <tspan class="n">78k</tspan></text></g>
-        <g class="cg"><circle class="star spine s7" cx="345" cy="213.2" r="12"/><text class="lbl" x="246" y="217">impeccable <tspan class="n">61k</tspan></text></g>
-        <g class="cg"><circle class="star s8" cx="400" cy="235.4" r="11.1"/><text class="lbl" x="414" y="224">devtools mcp <tspan class="n">49k</tspan></text></g>
-        <g class="cg"><circle class="star s9" cx="600" cy="254.5" r="10.3"/><text class="lbl" x="520" y="238">cursorrules <tspan class="n">41k</tspan></text></g>
-        <g class="cg"><circle class="star s10" cx="392" cy="264.7" r="9.9"/><text class="lbl" x="406" y="272">playwright <tspan class="n">36k</tspan></text></g>
-        <g class="cg"><circle class="star spine s11" cx="318" cy="278.6" r="9.4"/><text class="lbl" x="204" y="282">emilkowalski <tspan class="n">31k</tspan></text></g>
-        <g class="cg"><circle class="star s12" cx="368" cy="280" r="9.3"/><text class="lbl" x="386" y="286">vercel wdg <tspan class="n">30k</tspan></text></g>
-        <g class="cg"><circle class="star s13" cx="540" cy="292.4" r="8.8"/><text class="lbl" x="500" y="268">grok build <tspan class="n">26k</tspan></text></g>
-        <g class="cg"><circle class="star s14" cx="408" cy="324.8" r="7.5"/><text class="lbl" x="420" y="322">figma ctx <tspan class="n">16k</tspan></text></g>
-        <g class="cg"><circle class="star s15" cx="330" cy="331.7" r="7.3"/><text class="lbl" x="344" y="348">gsap-skills <tspan class="n">14k</tspan></text></g>
-        <g class="cg"><circle class="star s16" cx="470" cy="357.1" r="6.3"/><text class="lbl" x="481" y="352">stitch <tspan class="n">8.1k</tspan></text></g>
-        <g class="cg"><circle class="star s17" cx="185" cy="376.6" r="5.5"/><text class="lbl" x="196" y="371">gpt-image2 <tspan class="n">4.7k</tspan></text></g>
-        <g class="cg"><circle class="star s18" cx="455" cy="409.1" r="4.2"/><text class="lbl" x="464" y="424">nanobanana <tspan class="n">1.1k</tspan></text></g>
+        <polyline class="cline" points="205,93.9 185,367.1"/>
+        <polyline class="cline" points="305,70.6 352,75.6"/>
+        <polyline class="cline" points="400,204.6 392,238.3"/>
+        <polyline class="cline" points="392,238.3 408,307.4"/>
+        <polyline class="cline" points="470,344.6 455,404.5"/>
+        <polyline class="cline spine" points="352,75.6 310,143.5 345,178.7 318,254.3"/>
+        <g class="cg"><circle class="star s1" cx="65" cy="60" r="18"/><text class="lbl" x="86" y="118">gstack <tspan class="n">129k</tspan></text></g>
+        <g class="cg"><circle class="star s2" cx="305" cy="70.6" r="17.6"/><text class="lbl" x="250" y="98">shadcn/ui <tspan class="n">122k</tspan></text></g>
+        <g class="cg"><circle class="star spine s3" cx="352" cy="75.6" r="17.4"/><text class="lbl" x="374" y="126">ui-ux-pro-max <tspan class="n">118k</tspan></text></g>
+        <g class="cg"><circle class="star s4" cx="205" cy="93.9" r="16.7"/><text class="lbl" x="225" y="132">codex <tspan class="n">107k</tspan></text></g>
+        <g class="cg"><circle class="star spine s5" cx="310" cy="143.5" r="14.7"/><text class="lbl" x="214" y="186">taste-skill <tspan class="n">78k</tspan></text></g>
+        <g class="cg"><circle class="star spine s6" cx="345" cy="178.7" r="13.3"/><text class="lbl" x="246" y="217">impeccable <tspan class="n">61k</tspan></text></g>
+        <g class="cg"><circle class="star s7" cx="400" cy="204.6" r="12.3"/><text class="lbl" x="414" y="224">devtools mcp <tspan class="n">49k</tspan></text></g>
+        <g class="cg"><circle class="star s8" cx="600" cy="226.6" r="11.4"/><text class="lbl" x="520" y="238">cursorrules <tspan class="n">41k</tspan></text></g>
+        <g class="cg"><circle class="star s9" cx="392" cy="238.3" r="11"/><text class="lbl" x="406" y="272">playwright <tspan class="n">36k</tspan></text></g>
+        <g class="cg"><circle class="star spine s10" cx="318" cy="254.3" r="10.3"/><text class="lbl" x="204" y="282">emilkowalski <tspan class="n">31k</tspan></text></g>
+        <g class="cg"><circle class="star s11" cx="540" cy="270.2" r="9.7"/><text class="lbl" x="500" y="268">grok build <tspan class="n">26k</tspan></text></g>
+        <g class="cg"><circle class="star s12" cx="408" cy="307.4" r="8.2"/><text class="lbl" x="420" y="322">figma ctx <tspan class="n">16k</tspan></text></g>
+        <g class="cg"><circle class="star s13" cx="330" cy="315.4" r="7.9"/><text class="lbl" x="344" y="348">gsap-skills <tspan class="n">14k</tspan></text></g>
+        <g class="cg"><circle class="star s14" cx="470" cy="344.6" r="6.8"/><text class="lbl" x="481" y="352">stitch <tspan class="n">8.1k</tspan></text></g>
+        <g class="cg"><circle class="star s15" cx="185" cy="367.1" r="5.9"/><text class="lbl" x="196" y="371">gpt-image2 <tspan class="n">4.7k</tspan></text></g>
+        <g class="cg"><circle class="star s16" cx="455" cy="404.5" r="4.4"/><text class="lbl" x="464" y="424">nanobanana <tspan class="n">1.1k</tspan></text></g>
+        <g class="cg"><rect class="parent s17" x="87.0" y="73.0" width="10" height="10" transform="rotate(45 92 78)"/><text class="lbl n" x="108" y="74">frontend-design <tspan class="n">parent 171k</tspan></text></g>
+        <g class="cg"><rect class="parent s18" x="363.0" y="299.0" width="10" height="10" transform="rotate(45 368 304)"/><text class="lbl n" x="386" y="298">vercel wdg <tspan class="n">parent 30k</tspan></text></g>
         <g class="cg"><circle class="ringed s19" cx="295" cy="455" r="4.5"/><text class="lbl n" x="240" y="442">agents.md</text></g>
         <g class="cg"><circle class="ringed s20" cx="330" cy="462" r="4.5"/><text class="lbl n" x="316" y="480">skills.sh</text></g>
         <g class="cg"><circle class="ringed s21" cx="365" cy="455" r="4.5"/><text class="lbl n" x="374" y="452">figma mcp</text></g>
@@ -248,15 +247,15 @@
         <!-- plate:auto:end -->
       </svg>
       </div>
-      <figcaption>Figure 1. The 2026 design-skill sky, compiled from registry.json (essential tier; full catalog below). Mark area and height scale with the square root of GitHub stars; hollow rings are unmeasured standards; stars group by primary harness, with universal packs at center. The amber asterism is the install spine. Audited 2026-08-20.</figcaption>
+      <figcaption>Figure 1. The 2026 design-skill sky, compiled from registry.json (essential tier). Filled marks: √ of that repository's stars. Dashed diamonds: skill lives in a parent pack — parent star count is labeled, never used for scale or rank. Hollow rings: unmeasured standards. Amber asterism: install spine. Audited 2026-08-21.</figcaption>
     </figure>
 
     <!-- Mobile plate: separately composed excerpt -->
     <figure class="plate mobile">
       <div class="plate-frame">
       <svg viewBox="0 0 360 190" role="img" aria-labelledby="mplateT mplateD">
-        <title id="mplateT">Survey excerpt: the ten brightest design skills</title>
-        <desc id="mplateD">Top ten skills by GitHub stars, numbered; full list in the legend below.</desc>
+        <title id="mplateT">Survey excerpt: ten brightest this-repo design skills</title>
+        <desc id="mplateD">Excerpt of this-repo stars only; parent-pack star counts are excluded from rank. Full list in the legend below.</desc>
         <line class="grat" x1="16" y1="160" x2="344" y2="160"/>
         <polyline class="cline spine" points="128,64 162,92 196,74 230,104"/>
         <g class="cg"><circle class="star s1" cx="34" cy="52" r="15"/><text class="lbl" x="30" y="182">1</text></g>
@@ -269,10 +268,10 @@
         <g class="cg"><circle class="star s8" cx="230" cy="58" r="9.5"/><text class="lbl" x="226" y="182">8</text></g>
         <g class="cg"><circle class="star s9" cx="230" cy="104" r="8"/><text class="lbl" x="271" y="182">9</text></g>
         <g class="cg"><circle class="star s10" cx="264" cy="82" r="8"/><text class="lbl" x="303" y="182">10</text></g>
-        <text class="axis" x="16" y="26">figure 1 (detail) · ten brightest</text>
+        <text class="axis" x="16" y="26">figure 1 (detail) · ten brightest this-repo</text>
       </svg>
       </div>
-      <figcaption>1 frontend-design 170k · 2 gstack 129k · 3 shadcn/ui 122k · 4 ui-ux-pro-max 118k · 5 codex 107k · 6 taste-skill 78k · 7 impeccable 61k · 8 devtools mcp 49k · 9 cursorrules 41k · 10 playwright 36k — amber marks the install spine. Full survey in the catalog below.</figcaption>
+      <figcaption>1 gstack 129k · 2 shadcn/ui 122k · 3 ui-ux-pro-max 118k · 4 codex 107k · 5 taste-skill 78k · 6 impeccable 61k · 7 devtools mcp 49k · 8 cursorrules 41k · 9 playwright 36k · 10 emilkowalski 31k. Parent-pack stars (frontend-design, vercel wdg) are excluded from this rank. Amber marks the install spine.</figcaption>
     </figure>
   </div>
 
