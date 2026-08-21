@@ -58,6 +58,18 @@ if (registry.entries.some((e) => e.name === "frontend-design" && e.starBasis !==
   errors.push("frontend-design must be starBasis=parent-repo (anthropics/skills)");
 }
 
+const html = readFileSync(page, "utf8");
+if (!html.includes("<!-- mplate:auto:start -->") || !html.includes("<!-- mcaption:auto:start -->")) {
+  errors.push("mobile plate/caption auto markers missing");
+}
+if (/1 frontend-design/.test(html)) {
+  errors.push("mobile rank still treats frontend-design as this-repo #1");
+}
+const og = readFileSync(join(here, "..", "docs", "site", "og.png"));
+if (og[0] !== 0x89 || og.toString("ascii", 1, 4) !== "PNG") errors.push("og.png is not a PNG");
+const ogW = og.readUInt32BE(16), ogH = og.readUInt32BE(20);
+if (ogW !== 1200 || ogH !== 630) errors.push(`og.png must be 1200x630, got ${ogW}x${ogH}`);
+
 if (errors.length) {
   console.error(JSON.stringify({ verdict: "FAIL", errors }, null, 2));
   process.exit(1);

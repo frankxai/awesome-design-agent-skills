@@ -38,8 +38,9 @@ The headline finding: the three biggest **this-repo** design skills (ui-ux-pro-m
 ## Knowledge layer
 
 - **[How elite web teams actually work](./docs/how-elite-web-teams-work.md)** — the sourced 10-phase studio SOP, Awwwards' real 40/30/20/10 rubric, 15 anti-generic principles, and a slop-vs-craft voice guide.
-- [The 2026 premium web stack](./docs/premium-web-stack-2026.md) — verified library, icon, type, and image-model landscape, including the ten things agents most often get wrong.
-- **Instruments** (run from repo root): `node scripts/slop-scan.mjs <file>` (copy lint) · `scripts/qa-probe.js` (paste into a live page) · `node scripts/eval-instruments.mjs` (standing eval) · `node docs/site/build-plate.mjs` (recompile the survey plate after registry edits).
+- **[The 2026 premium web stack](./docs/premium-web-stack-2026.md)** — verified library, icon, type, and image-model landscape, including the ten things agents most often get wrong.
+- **Survey** — [docs/site/index.html](./docs/site/index.html) (GitHub Pages after deploy: `https://frankxai.github.io/awesome-design-agent-skills/`). Desktop and mobile plates compile from `registry.json`; OG image rasters from the same data.
+- **Instruments** (run from repo root): `node scripts/slop-scan.mjs <file>` · `scripts/qa-probe.js` · `node scripts/eval-instruments.mjs` · `node docs/site/build-plate.mjs` · `python scripts/render-og.py`
 
 ## Current high-signal stack
 
