@@ -29,6 +29,6 @@ Surface: public landing page for the registry (`index.html`, standalone, GitHub-
 - Mobile: separate plate composition active, no horizontal overflow, CTAs above the fold, no tap targets under 44px.
 - Console: zero errors. Network: no 404s; fonts loaded.
 
-Follow-ups: replace OG image with a rendered plate crop; capture desktop/mobile screenshots when a compositing pane is available.
+Follow-ups: capture desktop/mobile screenshots when a compositing pane is available.
 
-2026-08-21: plate scale is this-repo only (max = gstack). Parent-pack marks are dashed diamonds. `/studio` retired in favor of `/pwo`.
+2026-08-21: plate scale is this-repo only (max = gstack). Parent-pack marks are dashed diamonds. `/studio` retired in favor of `/pwo`. Mobile plate and caption compile from the same registry. OG 1200x630 rasters from `plate.json` (not a generated stand-in).
