@@ -13,3 +13,17 @@ jobs:
       - name: Validate Markdown links
         shell: pwsh
         run: ./scripts/validate-links.ps1
+
+  instruments:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Eval slop-scan + starBasis
+        run: node scripts/eval-instruments.mjs
+      - name: Survey plate matches registry
+        run: |
+          node docs/site/build-plate.mjs
+          git diff --exit-code -- docs/site/index.html
