@@ -2,6 +2,12 @@
 
 This repository is organized around a simple workflow model for design-oriented AI coding.
 
+## Decision-ready product blueprint
+
+The [Multi-Agent Design Product Blueprint](./docs/MULTI_AGENT_DESIGN_PRODUCT_BLUEPRINT_2026.md) audits the current catalog, compares live design-agent systems and runtime primitives, and proposes one open design-intelligence kernel with platform and web-stack adapters.
+
+The blueprint is a proposal, not a claim that the product runtime already exists. This repository remains the public discovery and benchmark layer; owned brand intelligence and executable product code belong in their canonical companion repositories.
+
 ## Core workflow stages
 
 1. **Generation** — create initial UI with stronger taste and less generic output
@@ -22,7 +28,7 @@ This repository is organized around a simple workflow model for design-oriented 
 
 - **Rankings** answer: which resources are strongest for a specific design task?
 - **Rubrics** answer: how do we judge whether a resource actually improves output?
-- **Examples** answer: what kind of quality jump should a good design skill create?
+- **Examples** illustrate the intended quality jump; until they include reproducible artifacts and screenshots, they are not benchmark evidence.
 
 ## Recommended reading paths
 
@@ -36,13 +42,13 @@ This repository is organized around a simple workflow model for design-oriented 
 
 1. Start with [Best brand system skills](./rankings/best-brand-system-skills.md)
 2. Cross-check consistency with the [AI UI quality rubric](./rubrics/ai-ui-quality-rubric.md)
-3. Use the [Before / after gallery](./examples/before-after-gallery.md) as a quality reference
+3. Use the [Before / after gallery](./examples/before-after-gallery.md) as an illustrative pattern, not benchmark evidence
 
 ### Fast path for critique and improvement
 
 1. Start with [Best design audit skills](./rankings/best-design-audit-skills.md)
 2. Score failure patterns with the [Anti-slop rubric](./rubrics/anti-slop-rubric.md)
-3. Compare the desired improvement pattern with the [Before / after gallery](./examples/before-after-gallery.md)
+3. Compare the desired improvement pattern with the [Before / after gallery](./examples/before-after-gallery.md), noting that the current gallery is conceptual
 
 ## Future expansion vectors
 
