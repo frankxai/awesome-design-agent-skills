@@ -48,3 +48,24 @@ Must:
 Prompt: Draw a simple three-step deployment flowchart.
 
 Expected: this skill should not auto-trigger unless the user asks for premium infographic/editorial treatment.
+
+## Case 5 — AI architecture Reel from an existing plate
+
+Prompt: Turn our approved AI architecture infographic into a high-quality 9:16 Reel explaining the layers, compare HyperFrames/GSAP with Remotion, and minimize cost.
+
+Must:
+
+- inspect the existing plate, prompt packet, hash, semantic model, and target crops before generating anything new;
+- reuse the approved visual source when it carries the correct subject and record zero new image calls;
+- distinguish reading order from runtime sequence;
+- keep evaluation, observability, governance, and human control cross-cutting;
+- author separate 9:16 and 4:5 compositions;
+- compare actual exports and phone-scale contact sheets before choosing a winner;
+- defer rendering when the machine preflight is HOLD and never touch unrelated processes;
+- preserve a reduced-motion poster and a human approval gate.
+
+Must not:
+
+- spend an image or generated-video call solely for novelty;
+- rank HyperFrames, GSAP, Remotion, or any other lane from code alone;
+- publish, schedule, or claim a final score before independent/founder review.

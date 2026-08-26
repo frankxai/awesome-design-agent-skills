@@ -1,6 +1,6 @@
 ---
 name: premium-infographic-motion
-description: "Create, critique, animate, or benchmark premium infographics and social carousels with researched claims, a generated visual layer, deterministic typography/diagrams, inspected exports, motion choreography, and transparent cost accounting. Use when the user asks for an infographic, annotated visual, Instagram or LinkedIn carousel, animated infographic, motion-graphic social post, visual explainer, diagram-led editorial card, or a comparison of image/motion production tools. Also use when the user asks to make an existing infographic feel world-class, less AI-generated, denser, more tactile, or more professionally authored. Do not trigger for a plain flowchart, ordinary slide deck, or generic UI unless the user explicitly asks for premium infographic craft."
+description: "Create, critique, animate, or benchmark premium infographics and social carousels with researched claims, a generated visual layer, deterministic typography/diagrams, inspected exports, motion choreography, and transparent cost accounting. Use when the user asks for an infographic, annotated visual, AI architecture map, system-layer explainer, Instagram or LinkedIn carousel, animated infographic, Reel motion graphic, visual explainer, diagram-led editorial card, or a comparison of image/motion production tools. Also use when the user asks to make an existing infographic feel world-class, less AI-generated, denser, more tactile, or more professionally authored. Do not trigger for a plain flowchart, ordinary slide deck, or generic UI unless the user explicitly asks for premium infographic craft."
 ---
 
 # Premium Infographic Motion
@@ -16,6 +16,8 @@ The default premium stack is:
 5. Actual export inspection, scoring, repair, and a cost/latency ledger.
 
 Read [references/master-prompt.md](references/master-prompt.md) when generating source imagery. Read [references/tool-router.md](references/tool-router.md) when selecting tools. Read [references/quality-rubric.md](references/quality-rubric.md) before scoring or claiming completion. Read [references/cost-accounting.md](references/cost-accounting.md) whenever the user asks about tokens, spend, or tool comparisons.
+
+Read [references/architecture-motion-scan.md](references/architecture-motion-scan.md) when the infographic is a system map, architecture plate, layered stack, or dense technical cutaway that must become a Reel or animated feed post.
 
 ## Non-negotiable outcome
 
@@ -36,6 +38,7 @@ Never claim an infographic is state of the art because the image model rendered 
 
 - Choose an asset tier: A real proof/product, B custom high-fidelity generated media, C exact vector/UI/system asset, or D decorative filler.
 - Select the production route with [references/tool-router.md](references/tool-router.md).
+- Run a reuse-before-regenerate check. Search the approved asset mirror and prior evidence for a visually compatible, inspected source layer. Reuse it with its hash and provenance when it already carries the required subject; do not spend an image call merely to make the run look new.
 - If the user explicitly asks to use Create Image for each card, generate a distinct, composition-aware source visual for every authored card. Keep every word, chart, brand mark, and connector in the deterministic overlay.
 - Before local builds, browsers, or video renders, honor the workspace machine-performance preflight. Do not install a renderer or start a dev server when the gate says HOLD.
 
@@ -55,6 +58,7 @@ Never claim an infographic is state of the art because the image model rendered 
 - Keep the master editable. Name layers by meaning and expose controlled variables for repeated series.
 - Create a motion beat sheet before implementation: hook, reveal order, proof, hold, CTA, loop seam, reduced-motion route, and optional sound purpose.
 - Animate reading order and state change. Do not animate every object because the runtime permits it.
+- For architecture maps, animate one semantic lens at a time while keeping the whole-system relationship available. Render cross-cutting controls across the architecture, never as the last isolated step merely because they appear last in the video.
 
 ### 5. Verify
 
