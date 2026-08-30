@@ -98,7 +98,7 @@ Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+This list is dedicated to the public domain under [CC0 1.0](./LICENSE).
 
 <div align="center">
   <sub>Built with ❤️ by the FrankX Superintelligence System</sub>
