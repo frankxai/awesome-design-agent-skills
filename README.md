@@ -6,17 +6,32 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Link Check](https://github.com/frankxai/awesome-design-agent-skills/actions/workflows/link-checker.yml/badge.svg)](https://github.com/frankxai/awesome-design-agent-skills/actions/workflows/link-checker.yml)
-[![FrankX Core Brand Hub](https://img.shields.io/badge/Maintained%20by-FrankX-blue?style=flat-square)](https://frankx.ai)
-
-**Code-driven design automation rules and UX schemas.**
+**Ranked design skills for coding agents: generation, polish, brand systems, and audits.**
 
 </div>
 
 ---
 
-## Start with the complete stack
+<!-- earned-skill-index:2026-08-30 -->
 
-![World-class brand and design-agent stack](./assets/world-class-design-stack.svg)
+## Earned skills (start here)
+
+Install a few named design skills. Do not bulk-install a registry.
+
+| Pack | Job |
+| --- | --- |
+| [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | Ranked DESIGN.md / SKILL.md directory — pick files, don't copy all 67 |
+| [anthropics/skills](https://github.com/anthropics/skills) | Official frontend-design, canvas-design, theme-factory |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | Pattern intelligence for product UI |
+| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Critique and anti-pattern detection |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Design review + visual QA loops |
+| [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Scan a skill before it runs |
+
+Safety and the 5–7 doctrine: [awesome-hermes-agent-skills](https://github.com/frankxai/awesome-hermes-agent-skills/blob/main/docs/QUALITY-AND-SAFETY.md).
+
+## Start with the ranked stack
+
+![Brand and design-agent stack](./assets/world-class-design-stack.svg)
 
 The 2026 comparison is not another unverified prompt list. It separates discovery,
 specialist acceleration, owned brand authority, rendered inspection, and production
