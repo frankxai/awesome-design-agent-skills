@@ -11,48 +11,55 @@ This ranking focuses on skills and resources that most reliably improve the visu
 
 ## Current top picks
 
-### 1. Impeccable
+### 1. Anthropic frontend-design skill
 
-**Best for:** a complete frontend shaping, critique, polish, and deterministic
-anti-pattern loop across coding agents.
+**Best for:** baseline high-quality UI generation in Claude Code-style workflows.
 
-- Product/brand initialization plus 23 design commands.
-- Browser iteration and a 59-rule detector turn taste into inspectable work.
-- Strongest when the product already has a real brief and owning design authority.
+Why it ranks first:
 
-### 2. UI UX Pro Max
+- It is explicitly built around avoiding generic AI aesthetics
+- It targets real implementation, not just visual ideation
+- It sets a high bar for polish, interaction detail, and production-readiness
 
-**Best for:** searchable design intelligence across product types, styles,
-palettes, typography, UX rules, frameworks, and component decisions.
+### 2. bergside/awesome-design-skills
 
-- Broad, practical offline data and cross-agent installation.
-- Use as a recommendation engine, not a substitute for source evidence or art direction.
+**Best for:** broad discovery across design skill files and ecosystems.
 
-### 3. Anthropic `frontend-design`
+Why it ranks highly:
 
-**Best for:** a concise, high-quality baseline in Claude Code-style workflows.
+- It is already tightly focused on design skills
+- It spans multiple agent tools instead of one closed ecosystem
+- It is the closest existing match to this repository's thesis
 
-- Strong subject grounding, compositional intent, typography, signature elements,
-  and anti-generic guidance.
-- Small enough to compose with product-local contracts.
+### 3. VoltAgent/awesome-claude-design
 
-### 4. Taste Skill
+**Best for:** design-system-flavored inspiration and quick scaffolding.
 
-**Best for:** high-variance landing pages, portfolios, and campaign surfaces.
+Why it ranks highly:
 
-- Deep preflight dials, anti-slop rules, visual-asset requirements, and strong
-  direction constraints.
-- Deliberately not a universal dashboard/data-product default.
+- `DESIGN.md` examples are easy to adapt
+- It helps turn vague requests into more coherent visual systems
+- It is useful when you want style direction before implementation detail
 
-### 5. Emil Kowalski's design-engineering skill
+### 4. travisvn/awesome-claude-skills
 
-**Best for:** interaction and micro-motion craft after the static composition works.
+**Best for:** finding Claude-native skills that can support frontend work.
 
-- Frequency-aware motion, easing, interruption, performance, and reduced-motion rules.
-- Specialist layer rather than a brand or system authority.
+Why it still matters:
 
-See [the end-to-end stack](./end-to-end-brand-design-stack.md) for evidence,
-licenses, snapshot metrics, machine state, and adoption boundaries.
+- It is a strong discovery layer
+- It surfaces adjacent skills even when they are not design-first
+- It is especially useful for Claude-heavy workflows
+
+### 5. VoltAgent/awesome-agent-skills
+
+**Best for:** wide-net search when you want to discover design-adjacent skills from a huge catalog.
+
+Why it is lower here:
+
+- It is broader than this use case
+- You still need an extra curation layer to find the design winners
+- It is strongest as a source pool, not as a final frontend-design recommendation list
 
 ## What usually separates the best frontend skills
 

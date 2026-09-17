@@ -1,23 +1,37 @@
-<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1280" height="520" rx="32" fill="#09111A"/>
-  <rect x="72" y="72" width="1136" height="376" rx="28" fill="#F8FAFC" opacity="0.06"/>
-  <rect x="126" y="122" width="310" height="276" rx="18" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.35"/>
-  <rect x="478" y="122" width="310" height="276" rx="18" fill="#0F172A" stroke="#2DD4BF" stroke-opacity="0.45"/>
-  <rect x="830" y="122" width="310" height="276" rx="18" fill="#0F172A" stroke="#A3E635" stroke-opacity="0.35"/>
-  <rect x="160" y="162" width="150" height="18" rx="9" fill="#E0F2FE"/>
-  <rect x="160" y="200" width="230" height="12" rx="6" fill="#94A3B8"/>
-  <rect x="160" y="226" width="190" height="12" rx="6" fill="#64748B"/>
-  <rect x="160" y="282" width="82" height="48" rx="10" fill="#38BDF8" opacity="0.9"/>
-  <rect x="258" y="282" width="82" height="48" rx="10" fill="#2DD4BF" opacity="0.9"/>
-  <rect x="356" y="282" width="42" height="48" rx="10" fill="#A3E635" opacity="0.9"/>
-  <circle cx="556" cy="204" r="46" fill="#2DD4BF" opacity="0.24"/>
-  <circle cx="634" cy="204" r="46" fill="#38BDF8" opacity="0.24"/>
-  <circle cx="712" cy="204" r="46" fill="#A3E635" opacity="0.24"/>
-  <rect x="530" y="294" width="206" height="16" rx="8" fill="#E2E8F0"/>
-  <rect x="556" y="326" width="154" height="12" rx="6" fill="#94A3B8"/>
-  <path d="M900 320L944 190L991 275L1032 222L1070 320H900Z" fill="#2DD4BF" opacity="0.82"/>
-  <circle cx="1050" cy="176" r="24" fill="#F8FAFC" opacity="0.88"/>
-  <text x="120" y="472" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Taste systems for agent-built interfaces</text>
-  <text x="120" y="86" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="800">Design Agent Skills</text>
-  <text x="124" y="116" fill="#99F6E4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18">Generate, polish, audit, systemize</text>
+<svg width="1600" height="400" viewBox="0 0 1600 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome Design Agent Skills</title>
+  <desc id="desc">Hero banner for Awesome Design Agent Skills list - GenCreator 6-Pillar CoE</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="400">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="100" x2="1600" y2="300">
+      <stop stop-color="#00d4ff"/>
+      <stop offset="1" stop-color="#00a8cc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="400" fill="url(#bgGrad)" rx="12"/>
+  <!-- Decorative elements - constellation style with teal accents -->
+  <g stroke="#00d4ff" stroke-width="1.5" opacity="0.6">
+    <line x1="200" y1="80" x2="400" y2="120"/>
+    <line x1="400" y1="120" x2="650" y2="90"/>
+    <line x1="650" y1="90" x2="900" y2="140"/>
+    <circle cx="200" cy="80" r="4" fill="#00d4ff"/>
+    <circle cx="400" cy="120" r="4" fill="#00d4ff"/>
+    <circle cx="650" cy="90" r="4" fill="#00d4ff"/>
+    <circle cx="900" cy="140" r="4" fill="#00d4ff"/>
+    <!-- right side -->
+    <line x1="1100" y1="100" x2="1300" y2="80"/>
+    <line x1="1300" y1="80" x2="1450" y2="130"/>
+    <circle cx="1100" cy="100" r="4" fill="#00d4ff"/>
+    <circle cx="1300" cy="80" r="4" fill="#00d4ff"/>
+    <circle cx="1450" cy="130" r="4" fill="#00d4ff"/>
+  </g>
+  <!-- Main title text -->
+  <text x="800" y="180" fill="#ffffff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" text-anchor="middle" letter-spacing="-1">Awesome Design Agent Skills</text>
+  <text x="800" y="230" fill="#00d4ff" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="600" text-anchor="middle" letter-spacing="1">| GenCreator 6-Pillar</text>
+  <text x="800" y="280" fill="#a0a0b0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" text-anchor="middle">Curated through the GenCreator 6-Pillar CoE lens • Starlight Swarm • Arcanea Creative Execution • Agentic Passive Income Systems</text>
+  <!-- Bottom accent line -->
+  <rect x="300" y="320" width="1000" height="2" fill="#00d4ff" opacity="0.4"/>
 </svg>
