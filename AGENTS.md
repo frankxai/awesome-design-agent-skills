@@ -28,11 +28,11 @@ This repo is the public design-agent discovery layer.
 
 For any site, app, landing page, dashboard, visual identity, brand, motion, media, social, or frontend task, apply the shared Design Taste Kernel before handoff:
 
-- C:\Users\frank\starlight\repos\design-agent-standards\DESIGN_TASTE.md
-- C:\Users\frank\starlight\repos\design-agent-standards\WEB_EXPERIENCE_STANDARD.md
-- C:\Users\frank\starlight\repos\design-agent-standards\MOTION_TASTE_RUBRIC.md
-- C:\Users\frank\starlight\repos\design-agent-standards\MULTI_AGENT_DESIGN_COUNCIL.md
-- C:\Users\frank\starlight\repos\design-agent-standards\VISUAL_QA_GATE.md
+- ../design-agent-standards/DESIGN_TASTE.md
+- ../design-agent-standards/WEB_EXPERIENCE_STANDARD.md
+- ../design-agent-standards/MOTION_TASTE_RUBRIC.md
+- ../design-agent-standards/MULTI_AGENT_DESIGN_COUNCIL.md
+- ../design-agent-standards/VISUAL_QA_GATE.md
 
 When motion, scroll, generated media, GIF/video, or premium polish matters, route through the Motion Design Studio plugin/skills and verify the result visually.
 
@@ -40,9 +40,9 @@ When motion, scroll, generated media, GIF/video, or premium polish matters, rout
 
 When adding or ranking resources for image generation, logo agents, motion agents, UI builders, or design QA, evaluate them with:
 
-- `C:\Users\frank\starlight\repos\awesome-design-agent-skills\rubrics\premium-generation-gate.md`
-- `C:\Users\frank\starlight\repos\design-agent-standards\OUTCOMES.md`
-- `C:\Users\frank\starlight\repos\design-agent-standards\AGENTIC_DESIGN_LOOP.md`
+- `rubrics/premium-generation-gate.md`
+- `../design-agent-standards/OUTCOMES.md`
+- `../design-agent-standards/AGENTIC_DESIGN_LOOP.md`
 
 Prefer resources that create measurable loops: research, direction board, output inspection, scoring, iteration, and handoff evidence.
 
